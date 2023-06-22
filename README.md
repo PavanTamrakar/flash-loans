@@ -1,3 +1,3 @@
-# Sample Flash Loan Project
+# Flash Loan Project
 
 This project demonstrates a basic Aave Flash Loan use case.
