@@ -20,4 +20,13 @@ contract FlashLoan is FlashLoanSimpleReceiverBase {
 
         POOL.flashLoanSimple(receiver, asset, amount, params, referralCode);
     }
+
+    function executeOperation(
+        address asset, 
+        uint256 amount, 
+        uint256 premium, 
+        address initiator, 
+        bytes calldata params) external returns (bool) {
+            
+    }
 }
